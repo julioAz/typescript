@@ -38,9 +38,9 @@ class Aluno extends Pessoa {
     }
 };
 
-const pessoa = new Pessoa('Julio', 'teste', 33, '000.000.000-00')
-const cliente = new Cliente('Julio', 'teste', 33, '000.000.000-00')
-const aluno = new Aluno('Julio', 'teste', 33, '000.000.000-00')
+const pessoa = new Pessoa("Julio", "teste", 33, "000.000.000-00")
+const cliente = new Cliente("Julio", "teste", 33, "000.000.000-00")
+const aluno = new Aluno("Julio", "teste", 33, "000.000.000-00")
 
 console.log(pessoa, cliente, aluno)
 `
